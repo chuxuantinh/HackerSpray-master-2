@@ -1,0 +1,22 @@
+{
+  "title": "HackerSpray .NET Core Library",
+  "copyright": "Copyright ©  Omar AL Zabir 2016",
+  "description": "A .NET library to protect websites from brute force and DOS attacks",
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.Extensions.Logging.Abstractions": "1.0.0",
+    "NETStandard.Library": "1.6.0",
+    "StackExchange.Redis": "1.1.604-alpha",
+    "System.Diagnostics.TraceSource": "4.0.0-rc2-24027"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    },
+    "netcoreapp1.0": {
+
+    }
+  }
+}

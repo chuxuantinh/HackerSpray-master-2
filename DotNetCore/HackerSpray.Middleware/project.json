@@ -1,0 +1,28 @@
+{
+  "title": "HackerSpray .NET Core Middleware",
+  "copyright": "Copyright ©  Omar AL Zabir 2016",
+  "description": "A .NET library to protect websites from brute force and DOS attacks",
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
+    "Microsoft.Extensions.Configuration.Abstractions": "1.0.0",
+    "Microsoft.Extensions.Logging.Abstractions": "1.0.0",
+    "Microsoft.Extensions.Options": "1.0.0",
+    "NETStandard.Library": "1.6.0"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "dependencies": {
+        "HackerSpray.Module": "1.0.0-*"
+      },
+      "imports": "dnxcore50"
+    },
+    "netcoreapp1.0": {
+      "dependencies": {
+        "HackerSpray.Module": "1.0.0-*"
+      }
+    }
+  }
+}
